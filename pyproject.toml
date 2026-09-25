@@ -1,0 +1,24 @@
+[project]
+name = "financialmodels"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Charles Gavini", email = "gavini.charles.blomet@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29",
+    "ipywidgets>=8.1",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.18",
+]
+
+[project.scripts]
+financialmodels = "financialmodels:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
