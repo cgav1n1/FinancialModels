@@ -1,0 +1,17 @@
+# Calcul scientifique
+numpy>=2.0
+
+# Manipulation de données
+pandas>=2.2
+
+# Graphiques
+matplotlib>=3.9
+
+# Widgets interactifs pour Jupyter
+ipywidgets>=8.1
+
+# Kernel Python pour Jupyter / VS Code
+ipykernel>=6.29
+
+# scipystats
+scipy>=1.18
